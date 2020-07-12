@@ -1,0 +1,35 @@
+body {
+    background-color: lightgray;
+    height: 95%;
+    overflow-y: scroll;
+}
+
+html {
+    height: 95%;
+}
+
+.content {
+    min-height: 95%;
+}
+
+.icon {
+	width: auto;
+	height: 32px;
+    transition: transform 1s;
+}
+ 
+.icon:hover {
+    transform: translate(10px, 10px);
+}
+
+  .social-links{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 600px) {
+        .social-links {
+            text-align: left;
+        }
+    }
